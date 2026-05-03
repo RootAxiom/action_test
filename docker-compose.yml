@@ -5,5 +5,5 @@ services:
       dockerfile: Dockerfile
     container_name: "action_test"
     ports:
-      - "5000:8080"
+      - "8080:5000"
     restart: unless-stopped
